@@ -1,0 +1,74 @@
+{
+  "modName": "WinterBreathing",
+  "displayName": "Winter Breathing",
+  "minMcmVersion": 2,
+  "content": [
+    {
+      "text": "Winter Breathing - visual effects for cold weather.",
+      "type": "section"
+    },
+    {
+      "id": "bWinterBreathingEnabled:Main",
+      "type": "switcher",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "text": "Winter Breathing Enabled",
+      "default": true
+    },
+    {
+      "type": "spacer",
+      "numLines": 1
+    },
+    {
+      "text": "Choose Enabled Weathers",
+      "type": "section"
+    },
+    {
+      "id": "bWinterBreathingWeatherClearEnabled:Main",
+      "type": "switcher",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "text": "All Clear Weathers",
+      "default": false
+    },
+    {
+      "id": "bWinterBreathingWeatherRainEnabled:Main",
+      "type": "switcher",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "text": "All Rain Weathers",
+      "default": true
+      
+    },
+    {
+      "id": "bWinterBreathingWeatherFogEnabled:Main",
+      "type": "switcher",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "text": "All Fog Weathers",
+      "default": true
+    },
+    {
+      "id": "bWinterBreathingWeatherSnowEnabled:Main",
+      "type": "switcher",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "text": "All Snow Weathers",
+      "default": true
+    },
+    {
+      "id": "bWinterBreathingWeatherRadEnabled:Main",
+      "type": "switcher",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "text": "All Radioactive Weathers",
+      "default": true
+    }
+  ]
+}
