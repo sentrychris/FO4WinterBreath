@@ -25,6 +25,23 @@
       "type": "section"
     },
     {
+      "text": "Enable All Weathers - Overrides options below",
+      "type": "section"
+    },
+    {
+      "id": "bWinterBreathingWeatherAllEnabled:Main",
+      "type": "switcher",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "text": "All Weathers",
+      "default": false
+    },
+    {
+      "text": "Enable Specific Weather Types",
+      "type": "section"
+    },
+    {
       "id": "bWinterBreathingWeatherClearEnabled:Main",
       "type": "switcher",
       "valueOptions": {
@@ -32,6 +49,15 @@
       },
       "text": "All Clear Weathers",
       "default": false
+    },
+    {
+      "id": "bWinterBreathingWeatherOvercastEnabled:Main",
+      "type": "switcher",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "text": "All Overcast Weathers",
+      "default": true
     },
     {
       "id": "bWinterBreathingWeatherRainEnabled:Main",
@@ -50,15 +76,6 @@
         "sourceType": "ModSettingBool"
       },
       "text": "All Fog Weathers",
-      "default": true
-    },
-    {
-      "id": "bWinterBreathingWeatherSnowEnabled:Main",
-      "type": "switcher",
-      "valueOptions": {
-        "sourceType": "ModSettingBool"
-      },
-      "text": "All Snow Weathers",
       "default": true
     },
     {
