@@ -1,9 +1,13 @@
 # FO4WinterBreath
-A small mod to add winter breath VFX to your Player Character. Configurable through MCM.
+A small mod to add winter breath VFX to your Player Character.
 
-Works in both 1st person and 3rd person.
+Works in both first-person and third-person.
 
 ![example](image.gif)
+
+Configurable through MCM.
+
+![menu](menu.png)
 
 ### Credit
 
